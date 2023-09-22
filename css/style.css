@@ -174,3 +174,39 @@ ul li {
     align-self: flex-end;
     font-weight: bold;
 }
+
+/* info section will be done
+
+
+/* intraction section's codes */
+.intraction {
+    display: flex;
+    padding: 3em 2em;
+}
+
+.intraction .container {
+    width: 90%;
+    background-color: #3882f6;
+    border-radius: 1em;
+
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    padding: 2em;
+    font-size: 14px;
+}
+
+.call-action button {
+    display: block;
+    width: 130px;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 1em;
+    border: 1px solid #f9faf8;
+}
