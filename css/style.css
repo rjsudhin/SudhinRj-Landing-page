@@ -14,7 +14,7 @@ ul {
 }
 
 ul li {
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
 }
 
@@ -165,7 +165,7 @@ ul li {
 }
 
 .first-quote {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     color: #1f2937;
 }
@@ -209,4 +209,29 @@ ul li {
     border: none;
     border-radius: 1em;
     border: 1px solid #f9faf8;
+}
+
+/* intracton will be done now */
+
+/* footer section's code */
+
+.footer {
+    background-color: #1f2937;
+    padding: 1em;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.container .address {
+    font-size: 14px;
+}
+
+.container .address a {
+    color: inherit;
+    text-decoration: none;
 }
