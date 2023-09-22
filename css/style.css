@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+
 }
 
 ul {
@@ -55,3 +55,96 @@ ul li {
 }
 
 /* nav section completed */
+
+
+/* header section's code */
+
+.header {
+    background-color: #1f2937;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 2em;
+    gap: 20px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.content-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.content-section p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-section button {
+    display: block;
+    width: 110px;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 1em;
+}
+
+#display-pic {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+/* header section styled */
+
+
+/* info section code */
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 1.5em 0 0.5em 0;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.boxes {
+    flex: 1;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: green; */
+    gap: 10px;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 1em;
+}
+
+.text {
+    font-size: 14px;
+    color: #5e5e5a;
+}
