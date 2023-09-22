@@ -96,8 +96,12 @@ ul li {
     background-color: #3882f6;
     border: none;
     border-radius: 1em;
+    cursor: pointer;
 }
 
+.content-section button:hover {
+    box-shadow: 0 0 3px 3px blue;
+}
 #display-pic {
     max-width: 250px;
     height: 250px;
@@ -211,7 +215,13 @@ ul li {
     border: none;
     border-radius: 1em;
     border: 1px solid #f9faf8;
+    cursor: pointer;
 }
+
+.call-action button:hover {
+    box-shadow: 0 0 3px 3px blue;
+}
+
 
 /* intracton will be done now */
 
@@ -237,6 +247,7 @@ ul li {
     color: inherit;
     text-decoration: none;
 }
+
 
 
 @media (max-width: 740px) {
