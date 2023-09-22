@@ -148,3 +148,29 @@ ul li {
     font-size: 14px;
     color: #5e5e5a;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 2em;
+    
+}
+
+.quote-section .container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.first-quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.auther {
+    align-self: flex-end;
+    font-weight: bold;
+}
