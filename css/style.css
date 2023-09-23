@@ -114,10 +114,16 @@ ul li {
 
 /* info section code */
 
+.info {
+    background-color: #252525;
+    overflow: hidden;
+
+}
+
 .info h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #1f2937;
+    color: #f0f2f5;
     text-align: center;
     margin: 1.5em 0 0.5em 0;
 }
@@ -136,7 +142,6 @@ ul li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background: green; */
     gap: 10px;
     text-align: center;
 }
@@ -144,13 +149,14 @@ ul li {
 .box {
     width: 150px;
     height: 150px;
+    background-color: #1f2937;
     border: 2px solid #3882f6;
     border-radius: 1em;
 }
 
 .text {
     font-size: 14px;
-    color: #5e5e5a;
+    color: #ddddd4;
 }
 /* quote section */
 
@@ -188,6 +194,7 @@ ul li {
 .intraction {
     display: flex;
     padding: 6em 2em;
+    background-color: #252525;
 }
 
 .intraction .container {
@@ -219,7 +226,7 @@ ul li {
 }
 
 .call-action button:hover {
-    box-shadow: 0 0 3px 3px blue;
+    box-shadow: 0 0 4px 3px rgb(8, 65, 119);
 }
 
 
