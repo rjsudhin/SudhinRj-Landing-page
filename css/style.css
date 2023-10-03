@@ -335,7 +335,7 @@ ul li {
     }
 
     .call-action button {
-        flex-direction: 1;
+        flex: 1;
     }
     /* intraction section */
 
