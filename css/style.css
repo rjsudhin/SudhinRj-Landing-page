@@ -105,7 +105,8 @@ ul li {
 #display-pic {
     max-width: 250px;
     height: 250px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 2em;
     
 }
 
@@ -341,3 +342,31 @@ ul li {
 
 
 }
+
+@media (max-width: 350px) {
+
+    .nav-bar {
+        height: unset;
+    }
+
+    .nav-bar .container {
+        flex-direction: column;
+
+    }
+
+    .side-links ul {
+        margin: 1em 0 0 0;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+
+    .header .container #display-pic {
+        border-radius: 50%;
+    }
+
+
+
+   
+}
+
